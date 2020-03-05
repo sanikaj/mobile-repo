@@ -1,0 +1,33 @@
+Employee: |
+        {
+            "properties": {
+                "id": {
+                    "type": "number",
+                    "required": true
+                },
+                "first_name": {
+                    "type": "string",
+                    "required": true
+                },
+                "last_name": {
+                    "type": "string",
+                    "required": true
+                },
+                "gender": {
+                    "type": "string",
+                    "required": true
+                },
+                "birth_date": {
+                    "type": "string",
+                    "required": true
+                },
+                "thumbImage": {
+                    "type": "string", # Base64 (UTF-8) encoded string
+                    "required": false
+                },
+                "image": {
+                    "type": "string", # Base64 (UTF-8) encoded string
+                    "required": false
+                },
+            }
+        }
