@@ -1,5 +1,4 @@
-Employee: |
-        {
+{
             "properties": {
                 "id": {
                     "type": "number",
