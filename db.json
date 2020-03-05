@@ -1,31 +1,79 @@
-{
-	"properties": {
-		"id": {
-			"type": "number",
-			"required": true
-		},
-		"first_name": {
-			"type": "string",
-			"required": true
-		},
-		"last_name": {
-			"type": "string",
-			"required": true
-		},
-		"gender": {
-			"type": "string",
-			"required": true
-		},
-		"birth_date": {
-			"type": "string",
-			"required": true
-		},
-		"thumbImage": {
-			"type": "string"
-		},
-		"image": {
-			"type": "string"
-
-		}
-	}
-}
+people = [
+    {
+        "id": 1,
+        "first_name": "John",
+        "last_name": "Doe",
+        "gender": "male",
+        "birth_date": "01 January 1980"
+    },
+    {
+        "id": 2,
+        "first_name": "Emmett",
+        "last_name": "Brown",
+        "gender": "male",
+        "birth_date": "14 February 1969"
+    },
+    {
+        "id": 3,
+        "first_name": "Tony",
+        "last_name": "Stark",
+        "gender": "male",
+        "birth_date": "01 January 2000"
+    },
+    {
+        "id": 4,
+        "first_name": "Lara",
+        "last_name": "Croft",
+        "gender": "female",
+        "birth_date": "31 December 1970"
+    },
+    {
+        "id": 5,
+        "first_name": "Sherlock",
+        "last_name": "Holmes",
+        "gender": "male",
+        "birth_date": "21 July 1900"
+    },
+    {
+        "id": 6,
+        "first_name": "Nicola",
+        "last_name": "Tesla",
+        "gender": "male",
+        "birth_date": "10 July 1856"
+    },
+    {
+        "id": 7,
+        "first_name": "Ava",
+        "last_name": "ExMachina",
+        "gender": "female",
+        "birth_date": "15 August 2014"
+    },
+    {
+        "id": 8,
+        "first_name": "Bobby",
+        "last_name": "Fisher",
+        "gender": "male",
+        "birth_date": "9 March 1943"
+    },
+    {
+        "id": 9,
+        "first_name": "Sarah",
+        "last_name": "Corner",
+        "gender": "female",
+        "birth_date": "4 May 1960"
+    },
+    {
+        "id": 10,
+        "first_name": "T800",
+        "last_name": "Terminator",
+        "gender": "male",
+        "birth_date": "13 April 2135"
+    },
+    {
+        "id": 11,
+        "first_name": "Douglas",
+        "last_name": "Powers",
+        "gender": "male",
+        "birth_date": "20 February 1950"
+    },
+]
